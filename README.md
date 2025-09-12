@@ -36,6 +36,8 @@ Por razones de costos y practicidad, el modelo semántico se cargó en Fabric y 
 
 <img width="1478" height="805" alt="image" src="https://github.com/user-attachments/assets/def1ab1c-a553-4048-8079-e9b5670bdd45" />
 
+Ver reporte 👉 https://app.powerbi.com/view?r=eyJrIjoiMTY3MzU2ZTUtMmY1Ni00ZTUxLWE4NGQtZTVjMjNkN2I4NDk0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9
+
 **Tecnologías Clave:** Microsoft Fabric, Power BI.
 * **Componentes de Fabric:** Lakehouse, Notebooks de PySpark, Dataflows2
 * **Lenguajes:** PySpark, PySQL.
