@@ -13,7 +13,7 @@ Existen tres fuentes principales sobre incidencia delictiva:
 
 ### 🗺️ ¿Qué problema resuelve este proyecto?
 
-*
+**
 
 Este proyecto demuestra un flujo de datos de **end-to-end** para transformar datos públicos de incidencia delictiva en un reporte interactivo y confiable. El objetivo fue convertir datos crudos y dispersos en una **fuente de verdad** para el análisis estratégico, aplicando las mejores prácticas de la ingeniería de datos y la inteligencia de negocios.
 
