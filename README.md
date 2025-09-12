@@ -28,6 +28,8 @@ Se aplico una arquitectura **Medallion** implementada en **Microsoft Fabric**. E
 
 ### Resultados y Herramientas
 Se creo un reporte interactivo **Power BI** que ofrece una visión clara y confiable de las tendencias de incidencia delictiva. Para la capa de visualización, se aplicaron principios de **diseño UX (experiencia de usuario)** para asegurar que el reporte sea intuitivo, fácil de navegar y que comunique los insights de manera efectiva a los usuarios finales.
+<img width="1901" height="887" alt="image" src="https://github.com/user-attachments/assets/189b33bd-f645-4ac7-b9e1-449c0bfcb5bb" />
+
 
 Por razones de costos y practicidad, el modelo semántico se cargó en Fabric y el reporte se desarrolló en **Power BI Desktop**, demostrando un flujo de trabajo realista y eficiente que minimiza los costos computacionales.
 
