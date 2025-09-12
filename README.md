@@ -34,6 +34,24 @@ ___
 
 El resultado final se creo un reporte interactivo **Power BI** que ofrece una visión clara y confiable de las tendencias de incidencia delictiva. Para la capa de visualización, se aplicaron principios de **diseño UX (experiencia de usuario)** para asegurar que el reporte sea intuitivo, fácil de navegar y que comunique los insights de manera efectiva a los usuarios finales.
 
+
+### **🗺️ ¿En qué situaciones se podría implementar?**
+
+Este tipo de canalización es ideal para organizaciones que:
+* Manejan volúmenes significativos de datos que crecen continuamente.
+* Necesitan realizar análisis e informes complejos sobre datos históricos y actuales.
+* Buscan una "fuente única de verdad" para sus datos analíticos.
+* Quieren desacoplar las cargas de trabajo de análisis de sus sistemas transaccionales de producción.
+* Están adoptando o planean adoptar una arquitectura Data Lakehouse.
+* Requieren un proceso de ingesta de datos automatizado y eficiente.
+* Utilizan o planean utilizar **Microsoft Fabric** para sus necesidades de datos y análisis.
+
+
+
+
+
+
+
 Por razones de costos y practicidad, el modelo semántico se cargó en Fabric y el reporte se desarrolló en **Power BI Desktop**, demostrando un flujo de trabajo realista y eficiente que minimiza los costos computacionales.
 
 **Tecnologías Clave:** Microsoft Fabric, Power BI.
