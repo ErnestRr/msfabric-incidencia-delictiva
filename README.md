@@ -24,6 +24,7 @@ Se aplico una arquitectura **Medallion** implementada en **Microsoft Fabric**. E
 * **Silver 🥈 (Limpieza y Validación):** Aquí se aplicaron transformaciones y reglas de negocio para limpiar y estandarizar la información, asegurando su calidad para el análisis.
 * **Gold 🥇 (Análisis):** En esta etapa final, los datos limpios se agregaron y modelaron en un **esquema de estrella (star schema)**, optimizado para el consumo en el reporte de Power BI. Este modelo se compone de una **tabla de hechos** y ** tablas de dimensiones** para la exploración de datos.
 
+<img width="1826" height="881" alt="image" src="https://github.com/user-attachments/assets/035c47b8-305d-4a57-bb15-9252f0aeb7f8" />
 <img width="1913" height="887" alt="image" src="https://github.com/user-attachments/assets/739b6cd5-924d-44e5-9d16-7ef29a668f25" />
 
 ### Resultados y Herramientas
