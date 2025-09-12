@@ -7,8 +7,8 @@
 
 Existen tres fuentes principales sobre incidencia delictiva:
 
-Estatal: Carpetas de investigación agregadas por entidad federativa.
-Municipal: Con mayor granularidad (municipal) <--
+* Estatal: Carpetas de investigación agregadas por entidad federativa.
+* **Municipal:** Con mayor granularidad (municipal) <--
 
 
 
