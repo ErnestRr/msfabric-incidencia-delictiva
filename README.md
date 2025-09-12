@@ -28,7 +28,7 @@ Se aplico una arquitectura **Medallion** implementada en **Microsoft Fabric**. E
 <img width="1913" height="887" alt="image" src="https://github.com/user-attachments/assets/739b6cd5-924d-44e5-9d16-7ef29a668f25" />
 
 ### Resultados y Herramientas
-Se creo un reporte interactivo **Power BI** que ofrece una visión clara y confiable de las tendencias de incidencia delictiva. Para la capa de visualización, se aplicaron principios de **diseño UX (experiencia de usuario)** para asegurar que el reporte sea intuitivo, fácil de navegar y que comunique los insights de manera efectiva a los usuarios finales.
+Se creo un reporte interactivo **Power BI** que ofrece una visión clara y confiable de las tendencias de incidencia delictiva. Para la capa de visualización, se aplicaron principios de **diseño UX (experiencia de usuario)** para asegurar que el reporte sea intuitivo, fácil de navegar y que comunique los insights de manera efectiva a los usuarios finales, adicional se uso DAX para crear los principales indicadores, generar granularidad en la tabla calendario para el marco temporal del modelo.
 <img width="1901" height="887" alt="image" src="https://github.com/user-attachments/assets/189b33bd-f645-4ac7-b9e1-449c0bfcb5bb" />
 
 
@@ -40,7 +40,7 @@ Ver reporte 👉 https://app.powerbi.com/view?r=eyJrIjoiMTY3MzU2ZTUtMmY1Ni00ZTUx
 
 **Tecnologías Clave:** Microsoft Fabric, Power BI.
 * **Componentes de Fabric:** Lakehouse, Notebooks de PySpark, Dataflows2
-* **Lenguajes:** PySpark, PySQL.
+* **Lenguajes:** PySpark, PySQL, DAX
 
 ### **🗺️ ¿En qué situaciones se podría implementar?**
 ---
