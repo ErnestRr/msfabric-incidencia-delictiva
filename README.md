@@ -24,7 +24,7 @@ Se aplico una arquitectura **Medallion** implementada en **Microsoft Fabric**. E
 
 * **Bronze 🥉 (Ingesta):** Los datos crudos de incidencia delictiva, obtenidos directamente de SESNSP, se cargaron en esta capa para mantener una copia fiel del origen.
 * **Silver 🥈 (Limpieza y Validación):** Aquí se aplicaron transformaciones y reglas de negocio para limpiar y estandarizar la información, asegurando su calidad para el análisis.
-* **Gold 🥇 (Análisis):** En esta etapa final, los datos limpios se agregaron y modelaron en un **esquema de estrella (star schema)**, optimizado para el consumo en el reporte de Power BI. Este modelo se compone de una **tabla de hechos** y **tablas de dimensiones** para la exploración de datos.
+* **Gold 🥇 (Análisis):** En esta etapa final, los datos limpios se agregaron y modelaron en un **esquema de estrella (star schema)**, optimizado para el consumo en el reporte de Power BI. Este modelo se compone de una **tabla de hechos** y ** tablas de dimensiones** para la exploración de datos.
 
 -
 ### Resultados y Herramientas
