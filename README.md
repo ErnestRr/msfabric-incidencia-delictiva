@@ -1,9 +1,11 @@
 # Incidencia delictiva municipal en México
+---
 ### Arquitectura Medallion con datos abiertos al público
 
 #### Este proyecto utiliza datos públicos de incidencia delictiva de México que abarca de 2019 a julio de 2025 a nivel mensual, la fuente de datos crudos son del SESNSP: https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva
 
 ### Conjunto de datos
+---
 Existen tres fuentes principales sobre incidencia delictiva:
 * Estatal: desagregación a nivel entidad federativa.
 * **Municipal: Mayor granularidad a nivel municipal.**
@@ -11,9 +13,11 @@ Existen tres fuentes principales sobre incidencia delictiva:
 
 
 ### 🗺️ ¿Qué problema resuelve este proyecto?
+---
 Este proyecto demuestra un flujo de datos de **end-to-end** para transformar datos públicos de incidencia delictiva en un reporte interactivo y confiable. El objetivo fue convertir datos crudos y dispersos en una **fuente de verdad** para el análisis estratégico, aplicando las mejores prácticas de la ingeniería de datos y la inteligencia de negocios.
 
 ### Estructura del proyecto
+---
 Se aplico una arquitectura **Medallion** implementada en **Microsoft Fabric**. Este enfoque me permitió procesar los datos de manera estructurada y escalable, siguiendo un patrón de **ELT** (Extract, Load, Transform).
 
 * **Bronze 🥉 (Ingesta):** Los datos crudos de incidencia delictiva, obtenidos directamente de SESNSP, se cargaron en esta capa para mantener una copia fiel del origen.
@@ -32,7 +36,7 @@ Por razones de costos y practicidad, el modelo semántico se cargó en Fabric y 
 * **Lenguajes:** PySpark, PySQL.
 
 ### **🗺️ ¿En qué situaciones se podría implementar?**
-
+---
 Este tipo de canalización es ideal para organizaciones que:
 * Manejan volúmenes significativos de datos que crecen continuamente.
 * Necesitan realizar análisis e informes complejos sobre datos históricos y actuales.
