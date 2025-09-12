@@ -13,7 +13,7 @@ Existen tres fuentes principales sobre incidencia delictiva:
 
 ### 🗺️ ¿Qué problema resuelve este proyecto?
 
-***
+*
 
 Este proyecto demuestra un flujo de datos de **end-to-end** para transformar datos públicos de incidencia delictiva en un reporte interactivo y confiable. El objetivo fue convertir datos crudos y dispersos en una **fuente de verdad** para el análisis estratégico, aplicando las mejores prácticas de la ingeniería de datos y la inteligencia de negocios.
 
@@ -25,7 +25,7 @@ Se aplico una arquitectura **Medallion** implementada en **Microsoft Fabric**. E
 * **Silver 🥈 (Limpieza y Validación):** Aquí se aplicaron transformaciones y reglas de negocio para limpiar y estandarizar la información, asegurando su calidad para el análisis.
 * **Gold 🥇 (Análisis):** En esta etapa final, los datos limpios se agregaron y modelaron en un **esquema de estrella (star schema)**, optimizado para el consumo en el reporte de Power BI. Este modelo se compone de una **tabla de hechos** y ** tablas de dimensiones** para la exploración de datos.
 
-* <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0dd3a821-635d-4648-a353-d0bda01fd8da" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0dd3a821-635d-4648-a353-d0bda01fd8da" />
 
 ### Resultados y Herramientas
 
