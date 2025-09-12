@@ -11,6 +11,7 @@ Existen tres fuentes principales sobre incidencia delictiva:
 * **Municipal: Mayor granularidad a nivel municipal.**
 * Víctimas: Datos sobre el número de víctimas, con otras variables adicionales como sexo y grupo de edad.
 
+
 -
 
 ### Análisis de Incidencia Delictiva con Microsoft Fabric y Power BI
@@ -33,6 +34,6 @@ El resultado final se creo un reporte interactivo **Power BI** que ofrece una vi
 
 Por razones de costos y practicidad, el modelo semántico se cargó en Fabric y el reporte se desarrolló en **Power BI Desktop**, demostrando un flujo de trabajo realista y eficiente que minimiza los costos computacionales.
 
-* **Tecnologías Clave:** Microsoft Fabric, Power BI.
+**Tecnologías Clave:** Microsoft Fabric, Power BI.
 * **Componentes de Fabric:** Lakehouse, Notebooks de PySpark, Dataflows2
 * **Lenguajes:** PySpark, PySQL.
