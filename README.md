@@ -11,7 +11,6 @@ Existen tres fuentes principales sobre incidencia delictiva:
 * **Municipal: Mayor granularidad a nivel municipal.**
 * Víctimas: Datos sobre el número de víctimas, con otras variables adicionales como sexo y grupo de edad.
 
-
 ___
 
 ### Análisis de Incidencia Delictiva con Microsoft Fabric y Power BI
