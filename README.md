@@ -3,7 +3,7 @@
 
 #### Este proyecto utiliza datos públicos de incidencia delictiva de México que abarca de 2019 a julio de 2025 a nivel mensual, la fuente de datos crudos son del SESNSP: https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva
 
-## Conjunto de datos
+### Conjunto de datos
 
 Existen tres fuentes principales sobre incidencia delictiva:
 
@@ -34,6 +34,11 @@ ___
 
 El resultado final se creo un reporte interactivo **Power BI** que ofrece una visión clara y confiable de las tendencias de incidencia delictiva. Para la capa de visualización, se aplicaron principios de **diseño UX (experiencia de usuario)** para asegurar que el reporte sea intuitivo, fácil de navegar y que comunique los insights de manera efectiva a los usuarios finales.
 
+Por razones de costos y practicidad, el modelo semántico se cargó en Fabric y el reporte se desarrolló en **Power BI Desktop**, demostrando un flujo de trabajo realista y eficiente que minimiza los costos computacionales.
+
+**Tecnologías Clave:** Microsoft Fabric, Power BI.
+* **Componentes de Fabric:** Lakehouse, Notebooks de PySpark, Dataflows2
+* **Lenguajes:** PySpark, PySQL.
 
 ### **🗺️ ¿En qué situaciones se podría implementar?**
 
@@ -46,14 +51,3 @@ Este tipo de canalización es ideal para organizaciones que:
 * Requieren un proceso de ingesta de datos automatizado y eficiente.
 * Utilizan o planean utilizar **Microsoft Fabric** para sus necesidades de datos y análisis.
 
-
-
-
-
-
-
-Por razones de costos y practicidad, el modelo semántico se cargó en Fabric y el reporte se desarrolló en **Power BI Desktop**, demostrando un flujo de trabajo realista y eficiente que minimiza los costos computacionales.
-
-**Tecnologías Clave:** Microsoft Fabric, Power BI.
-* **Componentes de Fabric:** Lakehouse, Notebooks de PySpark, Dataflows2
-* **Lenguajes:** PySpark, PySQL.
